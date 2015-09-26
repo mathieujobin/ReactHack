@@ -5,7 +5,8 @@ var ContentPage = require('./pages/ContentPage');
 var HomePage = require('./pages/HomePage');
 var ReactHack = require('ReactHack');
 
-Parse.initialize('APPLICATION_ID', 'JAVASCRIPT_KEY');
+require('../replacement_for_env_vars');
+Parse.initialize(application_id, javascript_key);
 
 ReactHack.start({
   '': HomePage,

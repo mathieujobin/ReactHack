@@ -12,7 +12,7 @@ Make sure you have [npm](http://npmjs.org/).
 
 1. `git clone https://github.com/petehunt/ReactHack.git`
 2. `npm install`
-3. Edit `src/main.js` to include your Parse API key.
+3. Edit `replacement_for_env_vars.js` to include your Parse API key.
 4. `npm start`
 5. Open `index.html` in your favorite browser
 6. Start hacking!

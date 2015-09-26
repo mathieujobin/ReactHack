@@ -2,4 +2,5 @@ node_modules
 *~
 build/main.js
 build/main.js.map
+replacement_for_env_vars.js
 .DS_Store
